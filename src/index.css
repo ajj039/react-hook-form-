@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .container{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: 80vh;
+  justify-content: center;
+ }
+ .fields{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+ }
+ input[type=text]{
+  width: 75%;
+  border-radius: 7px;
+  border:2px solid gray;
+  padding: 10px;
+  /* padding:1.4rem; */
+ }
+ 
+ 
+ .btn{
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding:7px;
+ }
+
+ .btn-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1rem;
+ }
+ .error{
+  color: red;
+  font-size: 1.2rem;
+  margin: 0rem;
+ }
